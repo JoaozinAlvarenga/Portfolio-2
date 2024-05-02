@@ -8,11 +8,138 @@
     <link rel="stylesheet" type="text/css" href="index.css">
 
     <title>Portfolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css">
+
 </head>
 
 <body>
+    <!--Nav-menu-->
     <div class="container">
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">Logo</p>
+            </div>
+            <div class="nav-menu" id="mynavmenu">
+                <ul class="nav-menu-list">
+                    <li class="nav-list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#sobre" class="nav-link">Sobre</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#projetos" class="nav-link">Projetos</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#contato" class="nav-link">Contato</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="modo">
+                <div class="noturno" id="toggle-switch">
+                    <i class="fa fa-moon" id="moon"></i>
+                    <i class="fa fa-sun" id="sun"></i>
+                </div>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+    <!--Nav-menu-->
 
+    <!--main-->
+    <main class="wrapper">
+        <section class="featured-box" id="home">
+            <div class="featured">
+                <div class="ola">
+                    <p>Olá, eu sou</p>
+                </div>
+                <div class="featured-name">
+                    <span class="typedtext"></span>
+                </div>
+                <div class="text-info">
+                    <p>Meu nome e João Gabriel! Eu sou ...</p>
+                </div>
+                <div class="text-btn">
+                    <button class="btn hire-btn">Me Contrate</button>
+                    <button class="btn">Baixar CV<i class="uil uil-file"></i></button>
+                </div>
+                <div class="social-icons">
+                    <div class="icons_circles"></div>
+                    <div class="icon"><i class="uil uil-instagram"></i></div>
+                    <div class="icon"><i class="uil uil-linkendin"></i></div>
+                    <div class="icon"><i class="uil uil-Github"></i></div>
+                </div>
+            </div>
+            <div class="featured-image">
+                <div class="image">
+                    <img src="" alt="">
+                </div>
+            </div>
+        </section>
+        
+        <!--sobre-->
+        <section class="section" id="sobre">
+            <div class="top-header">
+                <h1>Sobre mim</h1>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="about-info">
+                        <figure class="about-me">
+                            <figcaption>
+                                <img src="" alt="" class="profile" />
+                                <h2>Web developer</h2>
+                                <p>Meu nome e João Gabriel! Eu sou ...</p>
+                        </figure>
+                        <button class="about-me-btn">Me Contrate</button>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-box">
+                        <span class="title">HTML5</span>
+                        <div class="skill-bar html">
+                            <span class="skill-per">
+                                <span class="tooltip">80%</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="skill-box">
+                        <span class="title">CSS3</span>
+                        <div class="skill-bar css">
+                            <span class="skill-per">
+                                <span class="tooltip">65%</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="skill-box">
+                        <span class="title">JavaScript</span>
+                        <div class="skill-bar">
+                            <span class="skill-per javas">
+                                <span class="tooltip">40%</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="skill-box">
+                        <span class="title">C</span>
+                        <div class="skill-bar">
+                            <span class="skill-per C">
+                                <span class="tooltip">30%</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Projetos-->
+    </main>
     </div>
 
     <link rel="stylesheet" href="index.js">

@@ -7,9 +7,9 @@
 .container{
     height: 100vh;
     width: 100%;
-    background: linear-gradient(45deg, #be3fe8,#9432ba,#421a5f, #5d227d);
+    background: linear-gradient(45deg, #9432ba,#65178f,#4e18a7,#1e0fa8,#3708b9,#5b08b9);
     background-size: 300% 300%;
-    animation: color 12s ease-in-out infinite;
+    animation: color 20s ease-in-out infinite;
 }
 
 @keyframes color{
